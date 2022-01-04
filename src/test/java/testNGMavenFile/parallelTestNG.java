@@ -43,6 +43,12 @@ public class parallelTestNG {
 	  		WebElement name=driver.findElement(By.name("uid"));	 
 		    name.sendKeys("Tasneem3");
 	    }
+	    public void session5() {
+	    	WebDriver driver=new ChromeDriver();
+	  	    driver.get(baseURL);
+	  		WebElement name=driver.findElement(By.name("uid"));	 
+		    name.sendKeys("Tasneem3");
+	    }
 //test
 	  //  test
 }
